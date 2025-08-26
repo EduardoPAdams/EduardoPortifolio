@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Portifolio</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <button class="rgb-button">
+                <a href="#sobreMin">Sobre mim</a>
+            </button>
+            <button class="rgb-button">
+                <a href="#formacao">Formação</a>
+            </button>
+            <button class="rgb-button">
+                <a href="#portifolio">Portifolio</a>
+            </button>
+            <button class="rgb-button">
+                <a href="#contato">Contato</a>
+            </button>
+        </nav>
+    </header>
+    <section id="sobreMin">
+
+        <div id="textPerfil">
+            <P id="texto">
+                <span id="nome">Eduardo Pinto Adams</span><br>
+                Cursando Engenharia de Software<br>
+                19 anos
+            </P> 
+        </div>
+        
+    </section>
+    <hr>
+    <section id="formacao">
+        <div class="cursos" id="QI">
+            <p id="textqi">
+                <br>
+                <span id="qi">QI</span><br>
+                <span id="instqi">Faculdade & Escola Técnica</span>
+                <br>
+                <br>
+                <br>
+                Curso: <br>TÉCNICO EM INFORMÁTICA PARA INTERNET
+                <br>
+                <br>
+                <br>
+                Inicio: 2022
+                <br>
+                <br>
+                Termino: 2023
+            </p>
+        </div>
+        <div class="cursos" id="divUninter">
+            <p id="textuninter">
+                <br>
+                <span id="uninter">UNINTER</span><br>
+                <br>
+                <br>
+                <br>
+                BACHERELADO EM <br> ENGENHARIA DE SOFTWARE
+                <br>
+                <br>
+                <br>
+                Inicio: 2025
+                <br>
+                <br>
+                Termino: 2029
+            </p>
+        </div>
+        <div class="cursos" id="divMedio">
+            <img id="imgMedio" src="imagem/isabeldeespanha.png">
+            <p id="textMedio">
+                <br>
+                <span id="isaEspanha">Instituto Estadual de Educação <br> Isabel de Espanha</span><br>
+                <br>
+                <br>
+                <br>
+                Inicio: 2020
+                <br>
+                <br>
+                Termino: 2023
+            </p>
+        </div>
+
+    </section>
+    <hr>
+    <section id="portifolio">
+        <div class="projetos" id="mario">
+            <p id="textmario">
+                <br>
+                <span id="titulomario">SUPER MARIO</span><br>
+                <br>
+                <br>
+                <br>
+                Descrição: <br>
+                O site foi feito para divulgar o filme "Super Mario Bros. O Filme".
+                <br>
+                <br>
+                <br>
+                <br>
+                <a href="https://eduardopadams.github.io/MarioTrailer" target="_blank">
+                <button id="buttonmario">Ver Site</button>
+                </a>
+            </p>
+        </div>
+        <div class="projetos" id="priPortifolio">
+            <p id="textoport">
+                <br>
+                <span id="tituloport">Meu Primeiro Portifolio</span><br>
+                <br>
+                <br>
+                <br>
+                Descrição: <br>
+                Esse foi o primeiro portifolio que criei quando comecei, fiz alguns antes mas esse foi primeiro que cheguei a terminar.
+                <br>
+                <br>
+                <br>
+                <a href="https://eduardopadams.github.io/PrimeiroPortfolio" target="_blank">
+                <button id="buttonport">Ver Site</button>
+                </a>
+            </p>
+        </div>
+    </section>
+    <hr>
+    <section id="contato">
+    <form id="formContato" action="#" method="post">
+        <h2>Entre em Contato</h2>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+</body>
+</html>
