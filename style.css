@@ -7,7 +7,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body{
   display: block;
   background-color: #00CFFF;
@@ -15,7 +14,6 @@ body{
   width: 100%;
   position:absolute;
 }
-
 header{
   display: flex;
   height: 10%;
@@ -25,13 +23,11 @@ header{
   justify-content: flex-end;
   position:fixed ;
 }
-
 section {
   width: 100%;
   height: 100%;
 
 }
-
 a {
   color: #00CFFF;
   text-decoration: none;
@@ -49,7 +45,6 @@ a {
   background-position: center; 
   background-repeat: no-repeat;
 }
-
 #formacao {
   background-image: url(imagem/formacao.jpg);
   background-size: cover;  
@@ -62,7 +57,6 @@ a {
 
   padding: 10%;
 }
-
 #portifolio {
   background-image: url(imagem/portifolioImg.avif);
   background-size: cover;  
@@ -76,6 +70,7 @@ a {
   padding: 10%;
 }
 
+
 #textPerfil {
   /* background-color: brown; */
   width: 100%;
@@ -85,8 +80,6 @@ a {
   align-items: center;
   align-content: center;
 }
-
-
 #texto{
   color: #D3D3D3;
   font-size: 25px;
@@ -96,11 +89,11 @@ a {
   font-weight: 900;
   font-style: normal;
 }
-
 #nome {
   color: #FFD700;
   font-size: 50px;
 }
+
 
 #QI {
   background-color: rgb(182, 29, 29);
@@ -122,6 +115,7 @@ a {
   font-size: 30px;
 }
 
+
 #divUninter {
   background-color: rgb(18, 18, 141);
   padding: 2%;
@@ -138,6 +132,7 @@ a {
 #uninter{
   font-size: 30px;
 }
+
 
 #imgMedio {
   height: 60px;
@@ -160,6 +155,7 @@ a {
   font-size: 20px;
 }
 
+
 #mario {
   background-color: rgb(182, 29, 29);
   padding: 2%;
@@ -170,22 +166,12 @@ a {
   font-weight: 400;
   font-style: normal;
   color: white;
-
-
 }
 #titulomario{
   font-size: 30px;
   text-align: center;
 }
-#buttonmario {
-  height: 30px;
-  width: 70px;
-  border-radius: 6px;
-  border: none;
-  background-color: rgb(12, 12, 189);
-  color: white;
-  cursor: pointer;
-}
+
 
 #priPortifolio {
   background-color: rgb(96, 96, 97);
@@ -197,21 +183,10 @@ a {
   font-weight: 400;
   font-style: normal;
   color: white;
-
-
 }
 #tituloport{
   font-size: 20px;
   text-align: center;
-}
-#buttonport {
-  height: 30px;
-  width: 70px;
-  border-radius: 6px;
-  border: none;
-  background-color: rgb(12, 12, 189);
-  color: white;
-  cursor: pointer;
 }
 
 
@@ -222,7 +197,6 @@ a {
   justify-content: center;
   align-items: center;
 }
-
 #formContato {
   background-color: #222;
   padding: 20px;
@@ -234,17 +208,14 @@ a {
   color: white;
   font-family: "Rubik", sans-serif;
 }
-
 #formContato h2 {
   text-align: center;
   margin-bottom: 10px;
   color: #FFD700;
 }
-
 #formContato label {
   font-size: 14px;
 }
-
 #formContato input,
 #formContato textarea {
   width: 100%;
@@ -253,7 +224,6 @@ a {
   border-radius: 6px;
   font-size: 14px;
 }
-
 #formContato button {
   background-color: #00CFFF;
   color: black;
@@ -263,12 +233,28 @@ a {
   border-radius: 6px;
   cursor: pointer;
 }
-
 #formContato button:hover {
   background-color: #FFD700;
 }
 
 
+.linkSite {
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;       /* centraliza o texto verticalmente */
+  height: 30px;
+  width: 70px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(12, 12, 189);
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;   /* remove sublinhado */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
 .menu {
   width: 50%;
